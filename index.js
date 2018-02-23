@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-  res.send({ hi: 'welcome!' });
+  res.send({ hi: 'test' });
 });
 
 // Let Heroku inject the port
