@@ -10,6 +10,7 @@ mongoose.connect(keys.mongoURI);
 
 const app = express();
 
+// Store cookie for the user for 30 days
 app.use(
   cookieSession({
     maxAge: 30 * 24 * 60 * 60 * 1000,
