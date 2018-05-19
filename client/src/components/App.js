@@ -4,7 +4,7 @@ import { connect } from 'react-redux';
 import * as actions from '../actions';
 
 import Header from './Header';
-const Landing = () => <h2>Landing</h2>;
+import Landing from './Landing';
 
 class App extends Component {
   componentDidMount() {
@@ -12,7 +12,7 @@ class App extends Component {
   }
   render() {
     return (
-      <div>
+      <div style={{ backgroundColor: '#e0f2f1' }}>
         <BrowserRouter>
           <div className="container">
             <Header />
